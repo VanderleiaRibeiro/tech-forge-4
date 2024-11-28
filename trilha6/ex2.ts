@@ -12,7 +12,7 @@ class UserManager {
 const userManager = new UserManager();
 userManager.createUser('João', 'joao@example.com');
 
-//refatoração
+//refatoração.
 class EmailNotification {
   sendEmail(email: string): void {
     console.log(`Enviando email para ${email}`);
