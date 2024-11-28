@@ -43,6 +43,6 @@ class EmailSender {
 }
 
 const emailSender = new EmailSender();
-emailSender.sendEmail('joao@example.com');
+emailSender.sendEmail('maria@123.com');
 emailSender.sendEmail('invalid-email');
 

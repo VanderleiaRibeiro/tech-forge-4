@@ -119,8 +119,8 @@ class Order {
 }
 
 const order = new Order();
-order.addItem('Produto A', 100);
-order.addItem('Produto B', 50);
+order.addItem('Produto A', 10);
+order.addItem('Produto B',0);
 order.processPayment();
 order.updateShippingStatus('Enviado');
 order.displayOrderInfo();
